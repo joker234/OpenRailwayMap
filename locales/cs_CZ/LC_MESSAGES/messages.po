@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
@@ -104,6 +104,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #, php-format
 msgid "%d minute"
@@ -111,6 +112,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #, php-format
 msgid "%d hour"
@@ -118,6 +120,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodina"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodin"
+msgstr[3] "%d hodin"
 
 #, php-format
 msgid "%d day"
@@ -125,6 +128,7 @@ msgid_plural "%d days"
 msgstr[0] "%d den"
 msgstr[1] "%d dny"
 msgstr[2] "%d dnů"
+msgstr[3] "%d dnů"
 
 #, php-format
 msgid "%d week"
@@ -132,6 +136,7 @@ msgid_plural "%d weeks"
 msgstr[0] "%d týden"
 msgstr[1] "%d týdny"
 msgstr[2] "%d týdnů"
+msgstr[3] "%d týdnů"
 
 #, php-format
 msgid "%d month"
@@ -139,6 +144,7 @@ msgid_plural "%d months"
 msgstr[0] "%d měsíc"
 msgstr[1] "%d měsíce"
 msgstr[2] "%d měsíců"
+msgstr[3] "%d měsíců"
 
 #, php-format
 msgid "more than %s ago"
